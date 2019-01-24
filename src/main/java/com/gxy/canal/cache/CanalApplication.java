@@ -16,10 +16,10 @@ import org.springframework.kafka.annotation.EnableKafka;
 
 @SpringBootApplication
 @EnableKafka
-public class CacheApplication {
+public class CanalApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(CacheApplication.class, args);
+        SpringApplication.run(CanalApplication.class, args);
     }
 
 
