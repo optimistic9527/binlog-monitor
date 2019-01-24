@@ -1,0 +1,15 @@
+spring:
+  kafka:
+    consumer:
+      group-id: test4
+      enableAutoCommit: true
+      bootstrap-servers: 192.168.8.83:9092
+      auto-offset-reset: latest
+    producer:
+      bootstrap-servers: 192.168.8.83:9092
+  redis:
+    host: localhost
+    port: 6379
+kafka:
+  canal:
+    topic: canal1.2
